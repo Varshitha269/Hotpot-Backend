@@ -1,0 +1,6 @@
+2024-09-11 06:29:12,121 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-11 06:29:12,141 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-11 06:29:12,278 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 15 orders from the past 7 days.
+2024-09-11 09:08:35,192 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-11 09:08:35,199 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-11 09:08:35,224 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 15 orders from the past 7 days.

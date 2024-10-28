@@ -1,0 +1,667 @@
+2024-09-25 10:46:14,443 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 10:46:14,460 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 10:46:17,032 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 10:56:17,898 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 10:56:17,916 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 10:56:18,214 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 10:57:12,770 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 10:57:12,773 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 10:57:12,896 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:06:01,590 ERROR GlobalExceptionFilter - An error occurred
+System.InvalidOperationException: Unable to resolve service for type 'HotpotLibrary.Services.OrderService' while attempting to activate 'WebApplication1.Controllers.OrderController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 11:06:15,203 ERROR GlobalExceptionFilter - An error occurred
+System.InvalidOperationException: Unable to resolve service for type 'HotpotLibrary.Services.OrderService' while attempting to activate 'WebApplication1.Controllers.OrderController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 11:06:26,735 ERROR GlobalExceptionFilter - An error occurred
+System.InvalidOperationException: Unable to resolve service for type 'HotpotLibrary.Services.OrderDetailsService' while attempting to activate 'WebApplication1.Controllers.OrderDetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method23(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 11:06:49,586 ERROR GlobalExceptionFilter - An error occurred
+System.InvalidOperationException: Unable to resolve service for type 'HotpotLibrary.Services.PaymentsService' while attempting to activate 'WebApplication1.Controllers.PaymentsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 11:07:03,765 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:07:03,774 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 11:07:03,899 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:07:25,896 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetAllMenus (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:07:25,900 INFO  MenuService - Fetching all menus from the service layer.
+2024-09-25 11:07:25,957 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetAllMenus (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:07:36,396 ERROR GlobalExceptionFilter - An error occurred
+System.InvalidOperationException: Unable to resolve service for type 'HotpotLibrary.Services.OrderService' while attempting to activate 'WebApplication1.Controllers.OrderController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 11:08:34,297 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:08:34,318 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 11:08:36,569 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:08:53,979 ERROR GlobalExceptionFilter - An error occurred
+System.InvalidOperationException: Unable to resolve service for type 'HotpotLibrary.Services.CartService' while attempting to activate 'WebApplication1.Controllers.CartController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 11:11:16,635 ERROR GlobalExceptionFilter - An error occurred
+System.InvalidOperationException: Unable to resolve service for type 'HotpotLibrary.Services.OrderDetailsService' while attempting to activate 'WebApplication1.Controllers.OrderDetailsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method6(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 11:15:32,151 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.CartController.GetAllCarts (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:15:32,161 INFO  HotpotLibrary.Services.CartService - Fetching all carts.
+2024-09-25 11:15:33,701 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.CartController.GetAllCarts (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:15:52,678 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.OrderController.GetAllOrders (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:15:52,680 INFO  HotpotLibrary.Services.OrderService - Fetching all orders.
+2024-09-25 11:15:52,743 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.OrderController.GetAllOrders (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:16:13,526 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:16:13,526 INFO  HotpotLibrary.Services.PaymentsService - Fetching all payments.
+2024-09-25 11:16:13,597 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:19:34,512 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:19:34,519 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 11:19:34,611 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:33:58,970 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:33:59,019 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 11:33:59,307 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:34:05,439 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:34:05,439 INFO  HotpotLibrary.Services.PaymentsService - Fetching all payments.
+2024-09-25 11:34:05,456 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:35:10,797 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:35:10,798 INFO  HotpotLibrary.Services.PaymentsService - Fetching all payments.
+2024-09-25 11:35:10,809 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 11:36:34,073 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 11:36:34,073 INFO  HotpotLibrary.Services.PaymentsService - Fetching all payments.
+2024-09-25 11:36:34,089 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.PaymentsController.GetAllPayments (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 12:39:13,444 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 12:39:13,450 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 12:39:13,455 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 12:39:13,455 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 12:39:22,038 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 12:39:22,039 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 12:39:22,063 INFO  UserService - Service: Updating user with ID 1
+2024-09-25 12:39:58,769 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 12:39:58,771 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 12:39:58,802 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'UQ__Users__A9D105343CD5B57B'. The duplicate key value is (string).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnly(Int32 commandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:55a47887-9a47-4b90-a13e-b812ed429215
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.UpdateUser(Int32 id, UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 104
+   at UserService.UpdateUser(Int32 id, UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 59
+   at UserController.UpdateUser(Int32 id, UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 59
+   at lambda_method30(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 12:40:12,601 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 12:40:12,601 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 12:40:12,607 INFO  UserService - Service: Fetching user with ID 1.
+2024-09-25 12:40:12,628 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 12:40:12,628 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 12:45:32,107 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 12:45:32,108 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 12:45:32,116 INFO  UserService - Service: Creating user with Username: sumath
+2024-09-25 12:45:43,867 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to sumath@gmail.com: Welcome to HotPot!
+2024-09-25 12:45:43,868 INFO  UserService - Service: Registration email sent to sumath@gmail.com
+2024-09-25 12:45:43,872 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 12:45:43,872 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 12:46:11,531 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 12:46:11,532 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 12:46:11,541 INFO  UserService - Service: Fetching all users.
+2024-09-25 12:46:11,588 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 12:46:11,589 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 14:20:20,167 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 14:20:20,180 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 14:20:22,118 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 14:20:22,202 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 14:20:22,205 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 14:20:22,320 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 14:21:41,084 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 14:21:41,084 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 14:21:41,087 INFO  UserService - Service: Fetching user with ID 1024.
+2024-09-25 14:21:41,405 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 14:21:41,405 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 14:22:10,396 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 14:22:10,396 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 14:22:10,399 INFO  UserService - Service: Fetching user with ID 1028.
+2024-09-25 14:22:10,477 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 14:22:10,477 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:04:21,904 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:04:21,909 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:04:21,915 INFO  UserService - Service: Fetching user with ID 1028.
+2024-09-25 15:04:22,082 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:04:22,083 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetUserById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:05:02,419 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:05:02,419 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:05:02,427 INFO  UserService - Service: Creating user with Username: string
+2024-09-25 15:05:36,461 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:05:36,461 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:05:36,477 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'UQ__Users__A9D105343CD5B57B'. The duplicate key value is (string).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:9842c1b7-3789-47bd-a12b-89111a13e5ec
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 82
+   at UserService.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 38
+   at UserController.CreateUser(UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 46
+   at lambda_method106(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 15:05:40,105 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:05:40,105 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:05:40,108 INFO  UserService - Service: Creating user with Username: stringffff
+2024-09-25 15:05:40,673 ERROR HotpotLibrary.NotificationService.GmailService - Failed to send email: The specified string is not in the form required for an e-mail address.
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, ParseAddressInfo& parsedAddress, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress.TryParse(String address, String displayName, Encoding displayNameEncoding, ValueTuple`4& parsedData, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at HotpotLibrary.NotificationService.GmailService.SendEmail(String to, String subject, String body) in D:\Hotpot\HotpotLibrary\NotificationService\GmailService.cs:line 33
+2024-09-25 15:05:40,673 INFO  UserService - Service: Registration email sent to stringfffff
+2024-09-25 15:05:40,675 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:05:40,675 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:08:31,541 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:08:31,542 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:08:31,549 INFO  UserService - Service: Fetching all users.
+2024-09-25 15:08:31,644 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:08:31,644 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:41:50,089 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:41:50,093 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:41:50,102 INFO  UserService - Service: Creating user with Username: sowmya
+2024-09-25 15:41:55,947 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to sowmya@gmail.com: Welcome to HotPot!
+2024-09-25 15:41:55,947 INFO  UserService - Service: Registration email sent to sowmya@gmail.com
+2024-09-25 15:41:55,948 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:41:55,948 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:42:10,206 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:42:10,206 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:42:10,211 INFO  UserService - Service: Fetching all users.
+2024-09-25 15:42:10,233 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:42:10,233 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:47:55,472 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:47:55,474 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 15:47:55,479 INFO  UserService - Service: Creating user with Username: sanajna
+2024-09-25 15:47:59,685 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to sanjanaa1@gmil.com: Welcome to HotPot!
+2024-09-25 15:47:59,686 INFO  UserService - Service: Registration email sent to sanjanaa1@gmil.com
+2024-09-25 15:47:59,687 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:47:59,687 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 15:48:16,783 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:48:16,783 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 15:48:16,786 INFO  UserService - Service: Fetching all users.
+2024-09-25 15:48:16,818 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 15:48:16,818 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 16:41:57,880 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 16:41:57,899 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-25 16:41:58,048 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 16:46:23,047 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 16:46:23,048 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 16:46:23,051 INFO  UserService - Service: Creating user with Username: Darshan
+2024-09-25 16:46:26,961 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to darshan@gmail.com: Welcome to HotPot!
+2024-09-25 16:46:26,961 INFO  UserService - Service: Registration email sent to darshan@gmail.com
+2024-09-25 16:46:26,961 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 16:46:26,961 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 16:46:51,442 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 16:46:51,442 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 16:46:51,452 INFO  UserService - Service: Fetching all users.
+2024-09-25 16:46:51,475 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 16:46:51,475 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 17:01:41,882 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:01:41,887 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:01:41,893 INFO  UserService - Service: Creating user with Username: Test1223
+2024-09-25 17:01:45,839 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:01:45,839 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:01:45,842 INFO  UserService - Service: Creating user with Username: Test1223
+2024-09-25 17:01:45,888 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to test123456789@gmail.com: Welcome to HotPot!
+2024-09-25 17:01:45,888 INFO  UserService - Service: Registration email sent to test123456789@gmail.com
+2024-09-25 17:01:45,889 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:01:45,889 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:05:23,939 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:05:24,003 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:05:24,055 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'UQ__Users__A9D105343CD5B57B'. The duplicate key value is (test123456789@gmail.com).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:40a0c51b-4214-4541-bf59-e35227faf701
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 82
+   at UserService.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 38
+   at UserController.CreateUser(UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 46
+   at lambda_method106(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 17:07:25,388 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:07:25,395 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:07:25,402 INFO  UserService - Service: Creating user with Username: hello1234test
+2024-09-25 17:07:29,236 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:07:29,236 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:07:29,240 INFO  UserService - Service: Creating user with Username: hello1234test
+2024-09-25 17:09:24,027 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:09:24,116 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:09:24,219 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'UQ__Users__A9D105343CD5B57B'. The duplicate key value is (helootest@gmail.com).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:69134a75-5393-4245-979a-df0a1f6e90ee
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 82
+   at UserService.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 38
+   at UserController.CreateUser(UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 17:09:24,220 ERROR HotpotLibrary.NotificationService.GmailService - SMTP Error: The operation has timed out.
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at HotpotLibrary.NotificationService.GmailService.SendEmail(String to, String subject, String body) in D:\Hotpot\HotpotLibrary\NotificationService\GmailService.cs:line 53
+2024-09-25 17:09:24,258 INFO  UserService - Service: Registration email sent to helootest@gmail.com
+2024-09-25 17:09:24,262 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:09:24,262 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:14:55,967 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:14:55,972 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:14:55,978 INFO  UserService - Service: Creating user with Username: bindhu
+2024-09-25 17:14:59,599 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:14:59,599 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:14:59,604 INFO  UserService - Service: Creating user with Username: bindhu
+2024-09-25 17:19:13,705 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:19:13,711 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:19:13,877 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'UQ__Users__A9D105343CD5B57B'. The duplicate key value is (bindu@gmail.com).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:e7839522-9124-4b1b-81f1-91274c7da1ee
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 82
+   at UserService.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 38
+   at UserController.CreateUser(UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 17:19:13,877 ERROR HotpotLibrary.NotificationService.GmailService - SMTP Error: The operation has timed out.
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at HotpotLibrary.NotificationService.GmailService.SendEmail(String to, String subject, String body) in D:\Hotpot\HotpotLibrary\NotificationService\GmailService.cs:line 53
+2024-09-25 17:19:13,917 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:19:13,965 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 17:19:13,965 INFO  UserService - Service: Registration email sent to bindu@gmail.com
+2024-09-25 17:19:14,003 INFO  UserService - Service: Creating user with Username: valli
+2024-09-25 17:19:14,015 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:19:14,015 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:19:18,024 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to valli@gmail.com: Welcome to HotPot!
+2024-09-25 17:19:18,024 INFO  UserService - Service: Registration email sent to valli@gmail.com
+2024-09-25 17:19:18,024 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 17:19:18,024 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 20:03:15,019 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 20:03:15,032 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 20:03:15,042 INFO  UserService - Service: Creating user with Username: vednth
+2024-09-25 20:03:26,539 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to vedanth@gmail.com: Welcome to HotPot!
+2024-09-25 20:03:26,539 INFO  UserService - Service: Registration email sent to vedanth@gmail.com
+2024-09-25 20:03:26,542 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 20:03:26,542 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 20:04:06,122 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 20:04:06,122 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 20:04:06,126 INFO  UserService - Service: Fetching all users.
+2024-09-25 20:04:06,820 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 20:04:06,820 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 20:10:53,817 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 20:10:53,817 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 20:10:53,827 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 20:10:53,827 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) started.
+2024-09-25 20:10:53,836 INFO  UserService - Service: Creating user with Username: vednth
+2024-09-25 20:10:53,842 INFO  UserService - Service: Creating user with Username: vednth
+2024-09-25 20:12:49,642 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 20:12:49,642 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 20:12:49,643 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 20:12:49,643 INFO  WebApplication1.ActionFilter - Action method 'UserController.CreateUser (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-25 20:12:49,687 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'UQ__Users__A9D105343CD5B57B'. The duplicate key value is (vedanth@gmail.com).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:cde074f4-2d5b-44f9-8bf0-faded203fbb8
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 82
+   at UserService.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 38
+   at UserController.CreateUser(UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 20:12:49,687 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Users' with unique index 'UQ__Users__A9D105343CD5B57B'. The duplicate key value is (vedanth@gmail.com).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:4225915c-3641-4912-8792-665091ce6ad7
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 82
+   at UserService.CreateUser(UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 38
+   at UserController.CreateUser(UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 46
+   at lambda_method5(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 20:32:19,376 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 20:32:19,384 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 20:32:19,408 INFO  UserService - Service: Updating user with ID 20
+2024-09-25 20:32:20,137 WARN  UserService - Service: User with ID 20 not found for update.
+2024-09-25 20:32:20,137 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 20:32:20,137 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 20:37:19,057 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 20:37:19,059 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 20:37:19,064 INFO  UserService - Service: Updating user with ID 1028
+2024-09-25 20:50:21,175 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 20:50:21,234 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 20:50:21,396 ERROR GlobalExceptionFilter - An error occurred
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlTypes.SqlDateTime..ctor(DateTime value)
+   at Microsoft.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at Microsoft.Data.SqlClient.TdsParser.WriteUnterminatedValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at Microsoft.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj, Int32 paramSize, Boolean isDataFeed)
+   at Microsoft.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options, SqlCommand command, Boolean isAnonymous)
+   at Microsoft.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at HotpotLibrary.Repository.UserRepository.UpdateUser(Int32 id, UserDTO userDto) in D:\Hotpot\HotpotLibrary\Repository\UserRepository.cs:line 104
+   at UserService.UpdateUser(Int32 id, UserDTO userDto) in D:\Hotpot\HotpotLibrary\Services\UserService.cs:line 59
+   at UserController.UpdateUser(Int32 id, UserDTO userDto) in D:\Hotpot\WebApplication1\Controllers\UserController.cs:line 59
+   at lambda_method188(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-09-25 20:50:21,556 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-25 20:50:21,557 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-25 20:50:21,574 INFO  UserService - Service: Deleting user with ID 1041
+2024-09-25 20:50:29,110 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to vedanth@gmail.com: Your HotPot Account Has Been Deleted
+2024-09-25 20:50:29,112 INFO  UserService - Service: Deletion email sent to vedanth@gmail.com
+2024-09-25 20:50:29,112 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.
+2024-09-25 20:50:29,112 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.
+2024-09-25 20:59:40,415 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-25 20:59:40,417 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-25 20:59:40,427 INFO  UserService - Service: Deleting user with ID 1040
+2024-09-25 20:59:45,424 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to valli@gmail.com: Your HotPot Account Has Been Deleted
+2024-09-25 20:59:45,424 INFO  UserService - Service: Deletion email sent to valli@gmail.com
+2024-09-25 20:59:45,424 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.
+2024-09-25 20:59:45,424 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.
+2024-09-25 21:07:01,286 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 21:07:01,291 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) started.
+2024-09-25 21:07:01,303 INFO  UserService - Service: Updating user with ID 1028
+2024-09-25 21:07:08,349 INFO  HotpotLibrary.NotificationService.GmailService - Email sent via Gmail to ganeshflairs@gmail.com: Your HotPot Account Has Been Updated
+2024-09-25 21:07:08,350 INFO  UserService - Service: Update email sent to ganeshflairs@gmail.com
+2024-09-25 21:07:08,352 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 21:07:08,352 INFO  WebApplication1.ActionFilter - Action method 'UserController.UpdateUser (WebApplication1)' (HTTP Method: PUT) ended.
+2024-09-25 21:07:33,680 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 21:07:33,680 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-25 21:07:33,685 INFO  UserService - Service: Fetching all users.
+2024-09-25 21:07:33,724 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 21:07:33,724 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-25 21:08:00,412 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-25 21:08:00,412 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-25 21:08:00,419 INFO  UserService - Service: Deleting user with ID 1040
+2024-09-25 21:08:00,443 WARN  UserService - Service: User with ID 1040 not found for deletion.
+2024-09-25 21:08:00,443 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.
+2024-09-25 21:08:00,443 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.

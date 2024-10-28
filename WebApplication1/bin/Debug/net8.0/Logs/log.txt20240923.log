@@ -1,0 +1,50 @@
+2024-09-23 16:41:02,110 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:41:02,115 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:41:02,119 INFO  UserService - Service: Fetching all users.
+2024-09-23 16:41:04,047 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 16:41:04,047 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 16:41:47,744 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:41:47,744 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:41:47,746 INFO  UserService - Service: Fetching all users.
+2024-09-23 16:41:47,778 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 16:41:47,778 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 16:41:50,660 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:41:50,660 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:41:50,662 INFO  UserService - Service: Fetching all users.
+2024-09-23 16:41:50,713 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 16:41:50,713 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 16:42:01,257 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:42:01,257 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 16:42:01,259 INFO  UserService - Service: Fetching all users.
+2024-09-23 16:42:01,265 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 16:42:01,265 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:15:00,100 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:15:00,105 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:15:00,112 INFO  UserService - Service: Fetching all users.
+2024-09-23 17:15:01,842 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:15:01,842 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:15:45,889 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:15:45,889 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:15:45,894 INFO  UserService - Service: Fetching all users.
+2024-09-23 17:15:45,952 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:15:45,953 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:15:59,585 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:15:59,585 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:15:59,588 INFO  UserService - Service: Fetching all users.
+2024-09-23 17:15:59,634 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:15:59,634 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:43:33,921 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:43:33,926 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:43:33,932 INFO  UserService - Service: Fetching all users.
+2024-09-23 17:43:35,290 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:43:35,290 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:43:50,808 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:43:50,808 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:43:50,815 INFO  UserService - Service: Fetching all users.
+2024-09-23 17:43:50,845 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:43:50,845 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:46:50,173 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:46:50,180 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-23 17:46:50,184 INFO  UserService - Service: Fetching all users.
+2024-09-23 17:46:50,297 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-23 17:46:50,297 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.

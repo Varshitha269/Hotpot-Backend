@@ -1,0 +1,14 @@
+D:\Hotpot\HotpotLibrary\bin\Debug\net8.0\HotpotLibrary.deps.json
+D:\Hotpot\HotpotLibrary\bin\Debug\net8.0\HotpotLibrary.runtimeconfig.json
+D:\Hotpot\HotpotLibrary\bin\Debug\net8.0\HotpotLibrary.dll
+D:\Hotpot\HotpotLibrary\bin\Debug\net8.0\HotpotLibrary.pdb
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.csproj.AssemblyReference.cache
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.AssemblyInfoInputs.cache
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.AssemblyInfo.cs
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.csproj.CoreCompileInputs.cache
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.dll
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\refint\HotpotLibrary.dll
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.pdb
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\HotpotLibrary.genruntimeconfig.cache
+D:\Hotpot\HotpotLibrary\obj\Debug\net8.0\ref\HotpotLibrary.dll

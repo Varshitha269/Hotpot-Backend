@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hotpot\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5393990-5985-425D-8E20-888D0C653C27}|..\\HotpotTest\\HotpotTest.csproj|d:\\hotpot\\hotpottest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29313B5D-EC5D-44CA-8A8C-F8C04D4665B0}|..\\HotpotLibrary\\HotpotLibrary.csproj|d:\\hotpot\\hotpotlibrary\\repository\\checkoutmediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29313B5D-EC5D-44CA-8A8C-F8C04D4665B0}|..\\HotpotLibrary\\HotpotLibrary.csproj|d:\\hotpot\\hotpotlibrary\\repository\\restaurantmenuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA5526E-5972-48EA-BF35-E930CD59A991}|WebApplication1.csproj|d:\\hotpot\\webapplication1\\controllers\\reportsservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA5526E-5972-48EA-BF35-E930CD59A991}|WebApplication1.csproj|solutionrelative:controllers\\reportsservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckoutMediator.cs",
+              "DocumentMoniker": "D:\\Hotpot\\HotpotLibrary\\Repository\\CheckoutMediator.cs",
+              "RelativeDocumentMoniker": "..\\HotpotLibrary\\Repository\\CheckoutMediator.cs",
+              "ToolTip": "D:\\Hotpot\\HotpotLibrary\\Repository\\CheckoutMediator.cs",
+              "RelativeToolTip": "..\\HotpotLibrary\\Repository\\CheckoutMediator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:34:19.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RestaurantMenuItemRepository.cs",
+              "DocumentMoniker": "D:\\Hotpot\\HotpotLibrary\\Repository\\RestaurantMenuItemRepository.cs",
+              "RelativeDocumentMoniker": "..\\HotpotLibrary\\Repository\\RestaurantMenuItemRepository.cs",
+              "ToolTip": "D:\\Hotpot\\HotpotLibrary\\Repository\\RestaurantMenuItemRepository.cs",
+              "RelativeToolTip": "..\\HotpotLibrary\\Repository\\RestaurantMenuItemRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:33:02.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportsServiceController.cs",
+              "DocumentMoniker": "D:\\Hotpot\\WebApplication1\\Controllers\\ReportsServiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportsServiceController.cs",
+              "ToolTip": "D:\\Hotpot\\WebApplication1\\Controllers\\ReportsServiceController.cs",
+              "RelativeToolTip": "Controllers\\ReportsServiceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:32:50.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Hotpot\\HotpotTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\HotpotTest\\UnitTest1.cs",
+              "ToolTip": "D:\\Hotpot\\HotpotTest\\UnitTest1.cs",
+              "RelativeToolTip": "..\\HotpotTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T13:08:19.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

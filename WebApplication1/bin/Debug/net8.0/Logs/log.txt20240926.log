@@ -1,0 +1,49 @@
+2024-09-26 09:02:21,881 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 09:02:21,904 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 09:02:24,780 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 09:05:07,989 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 09:05:07,992 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 09:05:08,063 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 09:05:22,716 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-26 09:05:22,716 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) started.
+2024-09-26 09:05:22,722 INFO  UserService - Service: Deleting user with ID 1040
+2024-09-26 09:05:23,127 WARN  UserService - Service: User with ID 1040 not found for deletion.
+2024-09-26 09:05:23,128 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.
+2024-09-26 09:05:23,128 INFO  WebApplication1.ActionFilter - Action method 'UserController.DeleteUser (WebApplication1)' (HTTP Method: DELETE) ended.
+2024-09-26 09:36:08,737 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 09:36:08,752 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 09:36:08,901 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 09:37:53,020 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 09:37:53,025 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 09:37:53,046 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 09:39:01,586 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 09:39:01,593 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 09:39:01,632 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 09:40:24,554 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 09:40:24,556 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 09:40:24,569 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 09:49:07,980 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 09:49:07,989 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 09:49:08,142 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 10:00:52,227 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 10:00:52,246 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 10:00:52,435 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 10:00:52,615 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 10:00:52,619 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-26 10:00:52,698 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 10:37:14,527 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetAllRestaurants (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 10:37:14,542 INFO  RestaurantService - Service: Fetching all restaurants.
+2024-09-26 10:37:14,709 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetAllRestaurants (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 10:37:29,397 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 10:37:29,401 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-26 10:37:29,570 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 10:39:08,704 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 10:39:08,707 INFO  MenuItemService - Fetching menu item by ID 1 from the service layer.
+2024-09-26 10:39:08,742 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 10:39:26,099 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenuById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 10:39:26,104 INFO  MenuService - Fetching menu by ID 1 from the service layer.
+2024-09-26 10:39:26,162 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenuById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-26 10:40:09,539 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRating (WebApplication1)' (HTTP Method: GET) started.
+2024-09-26 10:40:09,542 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback rating with ID 1.
+2024-09-26 10:40:09,571 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback rating with ID 1.
+2024-09-26 10:40:09,571 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRating (WebApplication1)' (HTTP Method: GET) ended.

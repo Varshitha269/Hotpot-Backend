@@ -1,0 +1,10 @@
+2024-09-13 10:49:22,684 INFO  UserService - Service: Fetching all users.
+2024-09-13 10:54:14,247 INFO  HotpotLibrary.Services.CartService - Fetching cart with ID 1.
+2024-09-13 10:54:24,218 INFO  HotpotLibrary.Services.CartService - Fetching cart with ID 100.
+2024-09-13 10:54:54,335 INFO  HotpotLibrary.Services.CartService - Fetching cart with ID 10.
+2024-09-13 10:55:17,275 INFO  HotpotLibrary.Services.CartService - Updating cart with ID 10.
+2024-09-13 10:55:33,160 INFO  HotpotLibrary.Services.CartService - Fetching cart with ID 10.
+2024-09-13 10:55:53,715 INFO  HotpotLibrary.Services.CartService - Deleting cart with ID 500.
+2024-09-13 10:56:00,739 INFO  HotpotLibrary.Services.CartService - Deleting cart with ID 10.
+2024-09-13 10:56:09,393 INFO  HotpotLibrary.Services.CartService - Fetching cart with ID 10.
+2024-09-13 10:56:20,183 INFO  HotpotLibrary.Services.CartService - Fetching all carts.

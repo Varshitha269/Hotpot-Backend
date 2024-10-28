@@ -1,0 +1,690 @@
+2024-09-27 11:41:15,356 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetAllFeedbackRatings (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:41:15,366 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching all feedback ratings.
+2024-09-27 11:41:17,612 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched all feedback ratings.
+2024-09-27 11:41:17,614 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetAllFeedbackRatings (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 11:42:01,051 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:42:01,053 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 0.
+2024-09-27 11:42:01,229 INFO  HotpotLibrary.Services.FeedbackRatingsService - No feedback ratings found for RestaurantID 0.
+2024-09-27 11:42:01,230 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 11:42:07,104 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:42:07,104 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 11:42:07,216 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 11:42:07,216 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 11:42:50,009 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetAllMenus (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:42:50,014 INFO  MenuService - Fetching all menus from the service layer.
+2024-09-27 11:42:50,057 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetAllMenus (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 11:43:03,005 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:43:03,008 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 11:43:03,060 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 11:43:03,063 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 11:44:35,307 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:44:35,309 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 11:44:35,337 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 11:44:35,337 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 11:45:35,047 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:45:35,056 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 11:45:35,175 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 11:46:15,352 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 11:46:15,354 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 11:46:15,378 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 11:46:15,380 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:44:21,277 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:44:21,308 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 12:44:21,758 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:44:38,691 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:44:38,694 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 12:44:38,717 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:57:34,526 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:57:34,526 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:57:34,555 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 12:57:34,556 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 12:57:34,968 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:57:34,971 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 12:57:34,974 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:57:35,051 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:57:35,051 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 12:57:35,064 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 12:57:35,064 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:57:40,383 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:57:40,422 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 12:57:40,423 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:57:40,455 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 12:57:40,529 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:57:40,545 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 12:57:40,559 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:57:40,575 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:57:40,575 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 12:57:40,599 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 12:57:40,599 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 12:58:18,319 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 12:58:18,324 INFO  MenuItemService - Fetching menu item by ID 1 from the service layer.
+2024-09-27 12:58:18,375 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:13:10,897 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:13:10,918 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 14:13:12,651 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:14:15,686 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:14:15,689 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 14:14:15,760 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:14:18,588 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:14:18,588 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:14:18,595 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 14:14:18,595 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 14:14:18,738 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 14:14:18,741 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:14:18,776 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:14:18,791 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:14:18,792 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:14:18,827 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 14:14:18,827 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 14:14:18,873 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:14:18,885 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 14:14:18,886 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:16:23,598 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:16:23,633 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 14:16:23,759 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:16:33,262 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:16:33,271 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 14:16:33,280 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:16:35,046 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:16:35,046 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:16:35,050 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 14:16:35,052 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 14:16:35,131 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:16:35,131 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 14:16:35,134 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:16:35,140 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:16:35,140 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 14:16:35,140 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:16:35,142 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 14:16:35,176 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:16:35,176 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 14:16:35,176 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:18:44,092 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:18:44,092 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:18:44,134 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 14:18:44,156 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 14:18:44,325 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:18:44,328 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 14:18:44,353 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:18:44,372 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:18:44,374 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 14:18:44,378 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:18:44,378 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 14:18:44,390 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 14:18:44,390 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:18:44,390 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:24:34,189 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:24:34,189 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:24:34,197 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 14:24:34,199 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 14:24:34,387 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:24:34,388 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 14:24:34,420 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:24:34,462 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:24:34,463 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:24:34,463 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 14:24:34,471 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 14:24:34,486 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 14:24:34,486 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:24:34,488 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:09,292 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:09,292 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:09,321 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 14:27:09,346 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 14:27:09,443 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:09,443 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 14:27:09,464 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:10,015 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:10,020 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 14:27:10,043 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:10,059 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:10,061 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 14:27:10,075 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 14:27:10,078 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:10,106 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:10,109 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 14:27:10,115 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:10,115 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 14:27:10,124 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:10,131 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 14:27:10,131 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:10,163 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:10,165 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 14:27:10,175 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 14:27:10,175 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 14:27:10,182 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 14:27:10,186 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 14:27:10,186 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:47,207 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:47,207 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:47,207 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:47,207 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:47,228 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:24:47,279 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:24:47,287 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:24:47,361 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:24:47,781 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:24:47,781 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 15:24:47,787 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:47,824 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:47,826 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:47,854 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:47,943 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:47,943 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:24:47,943 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:47,978 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:24:48,004 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:24:48,004 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:48,015 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:48,179 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:48,183 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:24:48,184 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:24:48,185 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 15:24:48,198 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 15:24:48,198 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:24:48,205 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:19,876 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:19,876 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:19,899 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:26:19,947 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:26:20,159 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:20,160 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 15:26:20,167 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:20,244 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:20,246 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:26:20,248 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:20,255 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:26:20,257 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:20,257 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 15:26:20,257 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:20,271 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:20,286 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:20,288 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 15:26:20,288 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:20,291 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:26:20,296 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:26:20,305 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:20,841 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:20,843 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:26:20,844 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:26:20,844 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:26:20,860 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:26:20,860 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:26:20,862 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,154 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,154 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,163 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:27:02,193 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:27:02,213 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,217 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:27:02,221 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,302 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,302 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,302 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:27:02,305 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:27:02,318 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:27:02,318 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,322 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,369 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,371 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:27:02,387 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,391 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:27:02,445 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,454 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 15:27:02,458 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,741 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,741 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:02,742 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 15:27:02,744 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:27:02,763 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 15:27:02,763 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:02,764 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:19,708 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:19,708 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:19,711 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:27:19,713 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:27:19,741 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:19,742 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:27:19,745 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:19,756 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:19,760 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:27:19,760 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:19,760 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:27:19,777 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:27:19,777 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:19,779 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:20,133 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:20,137 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:27:20,139 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:20,143 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:27:20,154 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:20,155 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 15:27:20,158 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:20,195 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:20,216 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:27:20,223 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:27:20,223 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 15:27:20,239 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 15:27:20,239 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:27:20,244 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:05,804 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:05,804 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:05,809 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:28:05,811 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:28:05,826 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:05,827 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:28:05,830 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:05,839 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:05,839 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:28:05,839 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:05,841 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:28:05,847 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:28:05,847 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:05,854 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:06,034 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:06,038 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:28:06,040 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:06,042 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:28:06,045 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:06,075 INFO  MenuService - Successfully fetched menus for Restaurant ID 2.
+2024-09-27 15:28:06,078 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:06,105 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:06,114 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:28:06,124 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:28:06,126 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:28:06,126 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 15:28:06,131 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 15:28:06,131 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:31:16,441 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:31:16,441 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:31:16,446 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:31:16,473 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:31:16,538 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:31:16,538 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:31:16,541 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:31:16,552 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:31:16,552 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:31:16,552 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:31:16,555 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:31:16,564 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:31:16,564 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:31:16,566 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:45,894 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:45,894 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:45,901 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:32:45,926 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:32:46,038 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,038 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:32:46,042 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,053 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,056 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,056 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,057 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:32:46,059 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,064 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 15:32:46,066 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,073 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:32:46,077 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 15:32:46,117 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 15:32:46,121 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,194 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,194 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,197 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 15:32:46,199 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,199 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,200 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,238 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,267 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,268 INFO  MenuItemService - Fetching menu items by Menu ID 9 from the service layer.
+2024-09-27 15:32:46,273 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,273 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,301 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,302 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,307 INFO  MenuItemService - Fetching menu items by Menu ID 7 from the service layer.
+2024-09-27 15:32:46,316 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,317 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,320 INFO  MenuItemService - Fetching menu items by Menu ID 12 from the service layer.
+2024-09-27 15:32:46,326 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,373 INFO  MenuItemService - Fetching menu items by Menu ID 13 from the service layer.
+2024-09-27 15:32:46,378 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,381 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,384 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,392 INFO  MenuItemService - Fetching menu items by Menu ID 15 from the service layer.
+2024-09-27 15:32:46,398 INFO  MenuItemService - Fetching menu items by Menu ID 10 from the service layer.
+2024-09-27 15:32:46,406 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,414 INFO  MenuItemService - Fetching menu items by Menu ID 8 from the service layer.
+2024-09-27 15:32:46,423 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,466 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,480 INFO  MenuItemService - Fetching menu items by Menu ID 11 from the service layer.
+2024-09-27 15:32:46,487 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,499 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,527 INFO  MenuItemService - Fetching menu items by Menu ID 14 from the service layer.
+2024-09-27 15:32:46,582 INFO  MenuItemService - Fetching menu items by Menu ID 16 from the service layer.
+2024-09-27 15:32:46,703 INFO  MenuItemService - Fetching menu items by Menu ID 17 from the service layer.
+2024-09-27 15:32:46,709 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,757 INFO  MenuItemService - Fetching menu items by Menu ID 18 from the service layer.
+2024-09-27 15:32:46,801 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,814 INFO  MenuItemService - Fetching menu items by Menu ID 19 from the service layer.
+2024-09-27 15:32:46,851 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,895 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,898 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,901 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,916 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,924 INFO  MenuItemService - Fetching menu items by Menu ID 24 from the service layer.
+2024-09-27 15:32:46,953 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,975 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,985 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:46,990 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:46,994 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,005 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,013 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,027 INFO  MenuItemService - Fetching menu items by Menu ID 21 from the service layer.
+2024-09-27 15:32:47,027 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:47,033 INFO  MenuItemService - Fetching menu items by Menu ID 25 from the service layer.
+2024-09-27 15:32:47,041 INFO  MenuItemService - Fetching menu items by Menu ID 1023 from the service layer.
+2024-09-27 15:32:47,045 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,051 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:47,052 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:32:47,069 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,078 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,135 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:32:47,138 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,165 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:47,169 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:32:47,173 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:32:47,178 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:32:47,194 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:32:47,204 WARN  MenuService - No menus found for Restaurant ID 2.
+2024-09-27 15:32:47,344 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,672 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,672 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,678 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:36:50,712 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:36:50,788 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,788 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:36:50,790 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,798 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,804 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:36:50,805 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,806 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,808 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 15:36:50,811 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:36:50,813 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,825 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 15:36:50,832 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,838 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,844 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,844 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,844 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:36:50,846 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,851 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 15:36:50,853 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:36:50,861 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 15:36:50,864 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,866 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:36:50,866 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,869 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:36:50,872 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:38:19,271 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:38:19,274 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 15:38:19,359 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:39:13,758 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:39:13,758 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:39:13,765 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:39:13,768 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:39:13,798 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:39:13,799 WARN  MenuService - No menus found for Restaurant ID 2.
+2024-09-27 15:39:13,861 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:39:51,246 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:39:51,246 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:39:51,250 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:39:51,257 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:39:51,268 WARN  MenuService - No menus found for Restaurant ID 2.
+2024-09-27 15:39:51,272 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:39:51,275 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:39:52,181 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:39:52,184 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 15:39:52,185 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:39:52,190 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 15:39:52,196 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:39:52,198 WARN  MenuService - No menus found for Restaurant ID 2.
+2024-09-27 15:39:52,203 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:00,800 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:00,804 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 15:40:00,813 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,851 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,854 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:40:03,855 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,858 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:40:03,866 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,868 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:40:03,870 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,875 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,875 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,875 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,877 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:40:03,879 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:40:03,881 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,883 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 15:40:03,889 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,891 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 15:40:03,897 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,897 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,897 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:03,898 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:40:03,900 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,904 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 15:40:03,909 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:40:03,909 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,913 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,915 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,918 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:03,920 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 15:40:03,926 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:07,722 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:07,725 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 15:40:07,735 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,761 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,761 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,762 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:40:08,765 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:40:08,777 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,779 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:40:08,781 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,788 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,788 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,788 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,788 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,788 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,788 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,789 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:40:08,790 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 15:40:08,793 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:40:08,794 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:08,804 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 15:40:08,807 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 15:40:08,811 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,816 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,817 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,820 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:40:08,821 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,821 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 15:40:08,834 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:40:08,849 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,851 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:08,856 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:11,861 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:11,864 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 15:40:11,876 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,904 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,906 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,907 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 15:40:16,910 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 15:40:16,916 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,932 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 15:40:16,935 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,940 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,940 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,940 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,940 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 15:40:16,940 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,940 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,941 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,941 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 15:40:16,942 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 15:40:16,945 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 15:40:16,947 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 15:40:16,950 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 15:40:16,954 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,959 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,964 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,967 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,969 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 15:40:16,970 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,971 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 15:40:16,973 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 15:40:16,977 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 15:40:16,978 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,420 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,421 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,457 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 16:27:33,487 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 16:27:33,690 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 16:27:33,691 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,718 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,739 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,740 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,740 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,740 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,744 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 16:27:33,750 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 16:27:33,753 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,756 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 16:27:33,756 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,765 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 16:27:33,802 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:27:33,802 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 16:27:33,829 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,829 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,833 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 16:27:33,839 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 16:27:33,844 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,848 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,850 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 16:27:33,850 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,851 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:27:33,856 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:54,709 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:54,713 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 16:36:54,829 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,651 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,654 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 16:36:58,655 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,657 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 16:36:58,719 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,719 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 16:36:58,722 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,727 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,727 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,727 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,727 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,727 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,729 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 16:36:58,738 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 16:36:58,743 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 16:36:58,745 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 16:36:58,746 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,754 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,759 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,763 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:36:58,763 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,763 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 16:36:58,764 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 16:36:58,775 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 16:36:58,780 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,781 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,785 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 16:36:58,785 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:36:58,790 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:38:59,525 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:38:59,526 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 2.
+2024-09-27 16:38:59,556 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 2.
+2024-09-27 16:38:59,556 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,205 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,209 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,210 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 16:39:50,217 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 16:39:50,229 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 16:39:50,233 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,240 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,520 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,522 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,549 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 16:39:50,551 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,553 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,559 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 16:39:50,563 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 16:39:50,580 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,580 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,580 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,586 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,586 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 16:39:50,588 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,590 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 16:39:50,593 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,599 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 16:39:50,615 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,622 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 16:39:50,622 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,624 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 16:39:50,630 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,632 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,932 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,937 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 16:39:50,939 INFO  RestaurantService - Service: Fetching restaurant with ID 2.
+2024-09-27 16:39:50,943 INFO  MenuService - Fetching menus by Restaurant ID 2 from the service layer.
+2024-09-27 16:39:50,964 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 16:39:50,980 WARN  MenuService - No menus found for Restaurant ID 2.
+2024-09-27 16:39:51,018 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 20:59:39,462 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 20:59:39,479 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 20:59:39,488 INFO  UserService - Service: Fetching all users.
+2024-09-27 20:59:43,477 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 20:59:43,478 INFO  WebApplication1.ActionFilter - Action method 'UserController.GetAllUsers (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:00:21,876 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.JwtAuthController.Login (WebApplication1)' (HTTP Method: POST) started.
+2024-09-27 21:00:22,596 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.JwtAuthController.Login (WebApplication1)' (HTTP Method: POST) ended.
+2024-09-27 21:01:16,541 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:16,550 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 21:01:16,837 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,251 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,252 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,274 INFO  MenuService - Fetching menus by Restaurant ID 1 from the service layer.
+2024-09-27 21:01:54,274 INFO  RestaurantService - Service: Fetching restaurant with ID 1.
+2024-09-27 21:01:54,393 INFO  MenuService - Successfully fetched menus for Restaurant ID 1.
+2024-09-27 21:01:54,398 INFO  WebApplication1.ActionFilter - Action method 'MenuController.GetMenusByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,476 INFO  WebApplication1.ActionFilter - Action method 'RestaurantController.GetRestaurantById (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,508 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,509 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,509 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,509 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,509 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,509 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,525 INFO  MenuItemService - Fetching menu items by Menu ID 1 from the service layer.
+2024-09-27 21:01:54,530 INFO  MenuItemService - Fetching menu items by Menu ID 4 from the service layer.
+2024-09-27 21:01:54,542 INFO  MenuItemService - Fetching menu items by Menu ID 6 from the service layer.
+2024-09-27 21:01:54,548 INFO  MenuItemService - Fetching menu items by Menu ID 3 from the service layer.
+2024-09-27 21:01:54,551 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:01:54,559 INFO  MenuItemService - Fetching menu items by Menu ID 2 from the service layer.
+2024-09-27 21:01:54,588 INFO  HotpotLibrary.Services.FeedbackRatingsService - Fetching feedback ratings for RestaurantID 1.
+2024-09-27 21:01:54,589 INFO  MenuItemService - Fetching menu items by Menu ID 5 from the service layer.
+2024-09-27 21:01:54,703 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,703 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,703 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,703 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,703 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,710 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetMenuItemsByMenuId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:01:54,744 INFO  HotpotLibrary.Services.FeedbackRatingsService - Successfully fetched feedback ratings for RestaurantID 1.
+2024-09-27 21:01:54,744 INFO  WebApplication1.ActionFilter - Action method 'WebApplication1.Controllers.FeedbackRatingsController.GetFeedbackRatingsByRestaurantId (WebApplication1)' (HTTP Method: GET) ended.
+2024-09-27 21:02:40,348 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) started.
+2024-09-27 21:02:40,353 INFO  MenuItemService - Fetching all menu items from the service layer.
+2024-09-27 21:02:40,369 INFO  WebApplication1.ActionFilter - Action method 'MenuItemController.GetAllMenuItems (WebApplication1)' (HTTP Method: GET) ended.

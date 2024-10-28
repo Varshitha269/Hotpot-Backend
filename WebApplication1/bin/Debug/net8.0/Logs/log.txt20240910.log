@@ -1,0 +1,74 @@
+2024-09-10 08:25:40,468 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 08:25:40,511 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-10 08:25:43,018 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 0 orders from the past 7 days.
+2024-09-10 10:34:05,645 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:34:05,672 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-10 10:34:07,700 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 15 orders from the past 7 days.
+2024-09-10 10:34:37,322 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:34:37,324 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving regular users.
+2024-09-10 10:34:37,499 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 0 regular users.
+2024-09-10 10:35:08,279 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:35:08,379 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving total number of orders from 09-10-2024 12.00.00 AM to 09-10-2024 12.00.00 AM.
+2024-09-10 10:35:08,562 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved total number of orders per day.
+2024-09-10 10:39:09,440 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:39:09,454 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving menu item counts for category Breakfast from 09-10-2024 12.00.00 AM to 09-10-2024 12.00.00 AM.
+2024-09-10 10:40:56,596 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:40:56,600 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving revenue reports for period: Daily.
+2024-09-10 10:40:56,600 ERROR HotpotLibrary.Repository.AdminDashboardRepository - Invalid period specified.
+2024-09-10 10:42:23,303 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:42:23,305 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving top-selling items for period: daily.
+2024-09-10 10:42:31,465 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved top-selling items.
+2024-09-10 10:43:44,637 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:43:44,640 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving revenue reports for period: daily.
+2024-09-10 10:43:44,672 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved revenue reports.
+2024-09-10 10:44:08,133 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:44:08,136 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving users by order frequency for period: daily.
+2024-09-10 10:44:08,204 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved users by order frequency.
+2024-09-10 10:44:33,406 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:44:33,409 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving average order value for period: daily.
+2024-09-10 10:44:33,444 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved average order value.
+2024-09-10 10:49:43,933 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:49:43,967 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving menu item counts for category Lunch from 07-01-2024 12.00.00 AM to 10-09-2024 12.00.00 AM.
+2024-09-10 10:49:51,960 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:49:51,960 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-10 10:49:52,007 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 15 orders from the past 7 days.
+2024-09-10 10:50:17,601 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:50:17,603 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving regular users.
+2024-09-10 10:50:17,625 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 0 regular users.
+2024-09-10 10:50:42,368 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:50:42,379 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving total number of orders from 08-01-2024 12.00.00 AM to 09-10-2024 12.00.00 AM.
+2024-09-10 10:50:42,394 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved total number of orders per day.
+2024-09-10 10:51:23,286 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:51:23,292 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving revenue reports for period: monthly.
+2024-09-10 10:51:23,345 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved revenue reports.
+2024-09-10 10:51:40,570 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:51:40,576 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving top-selling items for period: monthly.
+2024-09-10 10:51:40,636 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved top-selling items.
+2024-09-10 10:52:00,688 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:52:00,688 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving average order value for period: mothly.
+2024-09-10 10:52:00,689 ERROR HotpotLibrary.Repository.AdminDashboardRepository - Invalid period specified.
+2024-09-10 10:52:10,436 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:52:10,436 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving average order value for period: monthly.
+2024-09-10 10:52:10,460 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved average order value.
+2024-09-10 10:55:05,570 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 10:55:05,709 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving menu item counts for category Lunch from 07-01-2024 12.00.00 AM to 09-01-2024 12.00.00 AM.
+2024-09-10 10:55:08,869 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved menu item counts by category.
+2024-09-10 13:29:36,572 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 13:29:36,602 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-10 13:30:01,397 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 13:30:01,399 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving regular users.
+2024-09-10 15:17:50,966 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 15:17:50,992 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-10 15:17:53,305 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 15 orders from the past 7 days.
+2024-09-10 15:18:02,738 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 15:18:02,747 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving regular users.
+2024-09-10 15:18:02,870 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 0 regular users.
+2024-09-10 15:18:14,420 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 15:18:14,459 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving top-selling items for period: daily.
+2024-09-10 15:18:14,734 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved top-selling items.
+2024-09-10 15:18:29,752 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 15:18:29,755 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving average order value for period: daily.
+2024-09-10 15:18:29,807 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved average order value.
+2024-09-10 15:57:17,719 INFO  HotpotLibrary.Repository.AdminDashboardRepository - AdminDashboard instance created.
+2024-09-10 15:57:17,745 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieving orders from the past 7 days.
+2024-09-10 15:57:19,361 INFO  HotpotLibrary.Repository.AdminDashboardRepository - Retrieved 15 orders from the past 7 days.
